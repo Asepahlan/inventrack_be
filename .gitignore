@@ -1,0 +1,46 @@
+# --- Laravel Core ---
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+/vendor
+/public/storage
+/public/hot
+/public/build
+/storage/*.key
+/storage/pail
+/auth.json
+
+# --- Node / Package Managers ---
+/node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.pnpm-debug.log
+
+# --- Testing / Cache ---
+.phpunit.result.cache
+/.phpunit.cache
+.phpactor.json
+
+# --- IDEs and Editors ---
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Homestead.json
+Homestead.yaml
+
+# --- OS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
